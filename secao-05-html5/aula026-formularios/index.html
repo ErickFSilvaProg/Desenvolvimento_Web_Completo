@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - Formulários</title>
+</head>
+<body>
+
+    <!-- Login -->
+    <h2>Login</h2>
+
+    <form action="logado.html">
+        
+        Login: <br>
+        <input type="text" name="login">
+        <br>
+
+        Senha: <br>
+        <input type="password" name="senha">
+        <br>
+
+        <input type="submit" value="Logar">
+    </form>
+
+    <!-- Cadastre-se -->
+    <h2>Cadastre-se</h2>
+
+    <form action="cadastrado.html" method="get">
+
+        Login: <br>
+        <input type="text" name="login-cadastro">
+        <br>
+
+        Sexo: <br>
+        <input type="radio" name="sexo" value="M"> Masculino
+        <input type="radio" name="sexo" value="F"> Feminino
+        <br>
+
+        Interesses: <br>
+        <input type="checkbox" name="interesses" value="futebol"> Futebol
+        <input type="checkbox" name="interesses" value="programacao"> Programação
+        <input type="checkbox" name="interesses" value="filmes-series"> Filmes e Séries
+        <br>
+
+        Estado: <br>
+        <select name="estado">
+            <option value="sp">SP</option>
+            <option value="MG">MG</option>
+            <option value="RJ">RJ</option>
+            <option value="RS">RS</option>
+        </select>
+        <br>
+
+        Observações: <br>
+        <textarea name="observacoes" rows="6" placeholder="Observações..."></textarea>
+        <br>
+
+        <input type="submit" value="Cadastrar">
+
+    </form>
+    
+</body>
+</html>
