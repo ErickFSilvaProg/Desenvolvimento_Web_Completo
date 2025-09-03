@@ -11,12 +11,11 @@
 
     <!-- Tag padrão do PHP -->
     <?php
-        echo "Tag padrão do PHP";
+        echo "<p>Utilizando a tag padrão do PHP.</p>";
     ?>
-    <br>
 
     <!-- Tag de impressão do PHP -->
-    <?= "Tag de impressão do PHP" ?>
+    <?= "<p>Utilizando a tag de impressão do PHP.</p>"; ?>
     
 </body>
 </html>
