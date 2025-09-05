@@ -1,0 +1,53 @@
+/* Estilos gerais da página */
+body {
+    font: 16px Arial, Helvetica, sans-serif;
+    background: #d2d2c1 url(imagens/fundo.png);
+}
+
+h1 {
+    color: #828271;
+    font-size: 1.2em;
+}
+
+p {
+    color: #4b566a;
+}
+
+/* Container principal */
+#principal {
+    width: 900px;
+}
+
+/* Menu */
+#menu {
+    padding: 20px;
+    background-color: #c5c5b2;
+}
+
+a {
+    padding: 10px;
+    font-weight: bold;
+    color: #4b566a;
+    text-decoration: none;
+}
+
+/* Conteúdo */
+#conteudo {
+    padding: 20px;
+    background-color: #e8e8d9;
+}
+
+.img-campanha {
+    border: 10px solid #c3c3ae;
+}
+
+.contato {
+    margin-top: 20px;
+}
+
+/* Rodapé */
+#rodape {
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: center;
+}
