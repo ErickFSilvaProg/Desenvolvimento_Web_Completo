@@ -1,0 +1,20 @@
+.conteudo,
+.conteudo2 {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border: 4px solid steelblue;
+    background-color: azure;
+}
+
+.conteudo {
+    float: left;
+}
+
+.conteudo2 {
+    float: right;
+}
+
+.clear-both {
+    clear: both;
+}
