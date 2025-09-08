@@ -1,0 +1,26 @@
+a {
+    padding: 5px 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+/* Links não visitados */
+a:link {
+    color: black;
+}
+
+/* Links visitados */
+a:visited {
+    color: chocolate;
+}
+
+/* Links que recebem o mouse sobre eles */
+a:hover {
+    color: darkcyan;
+}
+
+/* Links quando recebe o clique */
+a:active {
+    color: darkred;
+}
