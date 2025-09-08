@@ -1,0 +1,30 @@
+.conteudo1,
+.conteudo2,
+.conteudo3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid darkblue;
+    text-align: right;
+}
+
+.conteudo1 {
+    top: 0;
+    left: 0;
+    background-color: #ffe2ac;
+    z-index: 1;
+}
+
+.conteudo2 {
+    top: 101px;
+    left: 101px;
+    background-color: burlywood;
+    z-index: 0;
+}
+
+.conteudo3 {
+    top: 201px;
+    left: 201px;
+    background-color: ivory;
+    z-index: 2;
+}
