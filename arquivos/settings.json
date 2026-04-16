@@ -1,0 +1,22 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dark Modern",
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "explorer.compactFolders": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.executorMap": {
+        "php": "cls ; php",
+        "javascript": "cls ; node",
+        "typescript": "cls ; ts-node",
+        "sass": "cls ; sass --style expanded",
+        "scss": "cls ; scss --style expanded",
+        "less": "cls ; cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "python": "cls ; python -u",
+        "dart": "cls ; dart",
+        "java": "cls ; cd $dir && javac $fileName && java $fileNameWithoutExt"
+    },
+    "git.autofetch": true
+}
